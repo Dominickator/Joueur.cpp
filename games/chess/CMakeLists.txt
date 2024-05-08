@@ -28,6 +28,8 @@ add_dependencies(dependencies Chess_additional)
 set(FILES
     ${CMAKE_CURRENT_SOURCE_DIR}/ai.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/ai.hpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/chess_logic.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/chess_logic.hpp
     ${CMAKE_CURRENT_SOURCE_DIR}/impl/ai_impl.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/impl/chess.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/impl/chess.hpp
